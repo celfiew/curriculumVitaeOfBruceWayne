@@ -1,0 +1,75 @@
+inicio
+
+/*estilos generales*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman'
+}
+
+/*batman header*/
+.logo{
+    background-color: #E5E5E5;
+    height: 189px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*titulo del curriculo*/
+h1{
+    background-color:  #C4C4C4;
+    color: #005677;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+/*subtitulo*/
+
+.subtitulo{
+    
+    background-color: #C4C4C4;
+    color: #005677;
+    padding: 6px 15px;
+    top: 352px;  
+    font-size: 20px;
+    letter-spacing: 0px;    
+}
+
+/*Datos de la hoja de vida*/
+
+.datos{
+    margin: 15% 25%;
+}
+
+/*Titulos de descripción*/
+
+.titulosDatos{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+}
+
+/*Respuestas a los titulos de descripción*/
+
+.respuestas{
+    font-size: 15px;
+}
+
+/*Pie de pagina*/
+
+.piePagina{
+    align-items: center;
+    background-color: #005677;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    height: 37px;
+}
